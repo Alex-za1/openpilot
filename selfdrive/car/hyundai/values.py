@@ -1593,9 +1593,16 @@ FW_VERSIONS = {
     (Ecu.fwdRadar, 0x7d0, None): [
       b'\xf1\x00SG2_ RDR -----      1.00 1.01 99110-AT000         ',
     ],
+    (Ecu.cornerRadar, 0x7b7, None): [
+      b'\xf1\x00SG2 BCW RR 1.00 , 1.00 (\x81\x91E#\x01s\x06a',
+    ],
     (Ecu.fwdCamera, 0x7c4, None): [
       b'\xf1\x00SG2EMFC  AT EUR LHD 1.01 1.09 99211-AT000 220801',
       b'\xf1\x00SG2EMFC  AT USA LHD 1.01 1.09 99211-AT000 220801',
+      b'\xf1\x00SG2EMFC  AT USA LHD 1.00 1.00 99211-AT100 230216', # USA 2024 MY
+    ],
+    (Ecu.hvac, 0x7b3, None): [
+      b'\xf1\x00SG2   97255-AO180UNIT-HEATER CONTROL 1.01 SG2E DATC 1.4 1.00  ',
     ],
   },
   CAR.KIA_NIRO_PHEV: {
